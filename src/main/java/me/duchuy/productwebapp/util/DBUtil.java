@@ -15,7 +15,7 @@ public class DBUtil {
     public static Connection getConnection() {
         try {
             if (conn == null || conn.isClosed()) {
-                String connectionDB = "jdbc:postgresql://dpg-cksd9l10at9c73choq10-a.singapore-postgres.render.com/test_deploy_db";
+                String connectionDB = "jdbc:postgresql://dpg-cksd9l10at9c73choq10-a/test_deploy_db";
                 String driverName = "org.postgresql.Driver";
                 String username = "test_deploy_db_user";
                 String password = "MXOyJJ5M3Q0yIRDNY6XhUaPaaRFYZtph";
