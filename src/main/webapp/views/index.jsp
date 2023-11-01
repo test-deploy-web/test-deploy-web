@@ -97,7 +97,7 @@
         <%
             if (action != null) {
 
-                String p = request.getParameter("page");
+                String page = request.getParameter("page");
                 int pageNum = 1;
 
                 if (page != null && p.matches("\\d+")) {
